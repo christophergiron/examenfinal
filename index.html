@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body><!-- el body por medio de inputs como botones los cuales tienen un numero asignado al darles clic llama a la funcion en el javaScript y lo muestra en el display-->
+    <h1>Calculadora</h1>
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <br>
+        <input type="button" value="7" onclick="agregarAlDisplay('7')">
+        <input type="button" value="8" onclick="agregarAlDisplay('8')">
+        <input type="button" value="9" onclick="agregarAlDisplay('9')">
+        <input type="button" value="/" onclick="agregarAlDisplay('/')">
+        <br>
+        <input type="button" value="4" onclick="agregarAlDisplay('4')">
+        <input type="button" value="5" onclick="agregarAlDisplay('5')">
+        <input type="button" value="6" onclick="agregarAlDisplay('6')">
+        <input type="button" value="*" onclick="agregarAlDisplay('*')">
+        <br>
+        <input type="button" value="1" onclick="agregarAlDisplay('1')">
+        <input type="button" value="2" onclick="agregarAlDisplay('2')">
+        <input type="button" value="3" onclick="agregarAlDisplay('3')">
+        <input type="button" value="-" onclick="agregarAlDisplay('-')">
+        <br>
+        <input type="button" value="0" onclick="agregarAlDisplay('0')">
+        <input type="button" value="." onclick="agregarAlDisplay('.')">
+        <input type="button" value="=" onclick="calcular()">
+        <input type="button" value="+" onclick="agregarAlDisplay('+')">
+        <br>
+        <input type="button" value="C" onclick="limpiarDisplay()">
+    </div>
+    <!--hace un vinculo entre el script y el html-->
+    <script src="script.js"> </script>
+</body>
+</html>

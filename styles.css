@@ -1,0 +1,20 @@
+body{/* cambia el tipo de letra del body y alinea los textos al centro */
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1{
+    font-family: Arial, sans-serif;
+    color: blueviolet;
+}
+/* crea un borde y un margen a la calculadora y le agrega color a los mismos */
+.calculator{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+/* cambia el ancho y alto de los inputs y le cambia el tipo de letra */
+
